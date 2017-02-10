@@ -144,7 +144,7 @@ namespace UnitTestCalculatorMy
             x.GetType();
 
             // object.GetType() return type of element
-            CollectionAssert.AllItemsAreInstancesOfType(list_of_string, elm_1.GetType());
+            CollectionAssert.AllItemsAreInstancesOfType(list_of_myelements, elm_1.GetType());
         }
 
              [TestMethod]
@@ -167,13 +167,13 @@ namespace UnitTestCalculatorMy
 
 
 
-            CollectionAssert.AreEquivalent(list_of_string_expected, list_of_string_test);
+            CollectionAssert.AreEquivalent(list_of_string_expected, list_of_string);
         }
 
 
         string x = "some text";
 
-            'x.GetType'();
+            //x.GetType'();
 
             // object.GetType() return type of element
 
@@ -228,5 +228,4 @@ namespace UnitTestCalculatorMy
 
 
     }
-}
 }
